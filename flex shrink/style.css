@@ -1,0 +1,38 @@
+*{
+    font-family: cursive;
+    margin: 0;
+}
+
+body{
+    background: #eee;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.flex-container{
+    display: flex;
+    background: white;
+}
+
+.box{
+    height: 100px;
+    width: 420px;
+}
+
+.one{
+    background: yellow;
+    flex-shrink: 3;
+}
+
+.two{
+    background: red;
+    flex-shrink: 2;
+}
+
+.three{
+    background: blue;
+    flex-shrink: 1;
+}
