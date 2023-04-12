@@ -1,0 +1,41 @@
+*{
+    font-family: cursive;
+    margin: 0;
+}
+
+body{
+    background: #eee;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.flex-container{
+    display: flex;
+    background: white;
+    flex-wrap: wrap;
+    
+}
+
+.box{
+    height: 100px;
+    /* flex-basis: 200px; */
+    flex-basis: 500px;
+}
+
+.one{
+    background: yellow;
+    /* flex-basis: 100px; */
+}
+
+.two{
+    background: red;
+    /* flex-basis: 200px; */
+}
+
+.three{
+    background: blue;
+    /* flex-basis: 300px; */
+}
